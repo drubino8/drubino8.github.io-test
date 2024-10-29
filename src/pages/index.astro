@@ -34,5 +34,19 @@ const pageTitle = "Dawson Rubino";
 			  <img src="https://uploads-ssl.webflow.com/645c116c6148ce2dd7cef27c/646ce89bc8a4055047afa5bf_Headshot_DR.png" alt="My Picture">
 			</aside>
 		  </main>
+
+		  <script>
+			// Data
+			const pics = ['https://sfccdesign.com/2023gradshow/wp-content/uploads/2023/05/dawson-r.png', 'https://sfccdesign.com/2023gradshow/wp-content/uploads/2023/05/dawson-r-action.png'];
+
+			// Random Number
+			const randNum = Math.floor(Math.random() * 2);
+
+			// Get Stuff
+			const randoImage = document.querySelector('img');
+
+			// Set Stuff
+			randoImage.src = pics[randNum];
+		  </script>
 	</body>
-</html>
+</script></html>
